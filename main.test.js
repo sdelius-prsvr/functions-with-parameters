@@ -10,24 +10,24 @@ let z = 5;
 let name  = 'Stinky';
 let greeting = 'HEY';
 
-function multiply(num1) {
-  x = x * num1
+function multiply(num) {
+  x = x * num
 }
 
-function modYBy(num2) {
-  y = y % num2
+function modYBy(num) {
+  y = y % num
 }
 
-function opposite(num3) {
-  z = -num3
+function opposite(num) {
+  z = -num
 }
 
-function makeFullName(string1) {
-  name = name + ' ' + string1
+function makeFullName(string) {
+  name = name + ' ' + string
 }
 
-function yellAt(string2) {
-  greeting = greeting + ', ' + string2 + '!'
+function yellAt(string) {
+  greeting = greeting + ', ' + string + '!'
 }
 
 /*********************************************************************************************************************
