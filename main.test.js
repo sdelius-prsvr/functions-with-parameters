@@ -11,11 +11,11 @@ let name  = 'Stinky';
 let greeting = 'HEY';
 
 function multiply(num) {
-  x = x * num
+  x *= num
 }
 
 function modYBy(num) {
-  y = y % num
+  num %= y
 }
 
 function opposite(num) {
@@ -23,11 +23,11 @@ function opposite(num) {
 }
 
 function makeFullName(string) {
-  name = name + ' ' + string
+  name += ' ' + string
 }
 
 function yellAt(string) {
-  greeting = greeting + ', ' + string + '!'
+  greeting += ', ' + string + '!'
 }
 
 /*********************************************************************************************************************
