@@ -15,7 +15,7 @@ function multiply(num) {
 }
 
 function modYBy(num) {
-  num %= y
+  y %= num
 }
 
 function opposite(num) {
